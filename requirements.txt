@@ -1,0 +1,16 @@
+pip freeze > requirements.txt
+```
+
+This lists all dependencies so others can install them easily.
+
+---
+
+### **3. Add a .gitignore file**
+
+Create `.gitignore` to exclude unnecessary files:
+```
+venv/
+__pycache__/
+*.pyc
+.env
+*.log
